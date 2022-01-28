@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+#section-header{
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 75vh;
+}
+.text-header{
+    color: #3B9914;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Lato',sans-serif;
+    font-weight:bold;
+}
+.img-service{
+    height: 700px;
+    margin-left: -30%;
+}
+// information
+.info-img{
+    height:630px;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.info{
+    margin-left: 40px;
+    margin-top: 45px;
+    height: 550px;
+    position: relative;
+    margin-bottom: 45px;
+}
+// .p-text{
+//     text-align: justify;
+//     font-size: 18px;
+// }
+
+// inform
+#section-inform{
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.upd{
+    height: 550px;
+    position: relative;
+    margin-left: 37px;
+    margin-top: 35px;
+    width: 250px;
+}
+.update-res{
+    height: 620px;
+    position: absolute;
+
+}
+.logo-navigation{
+    position: relative;
+    height: 110px;
+    margin-left: -250px;
+    margin-bottom: -473px;
+}
+
+//update
+.img-upd{
+    position: absolute;
+    height: 630px;
+    width: auto;
+    margin-bottom: 40px;
+}
+.upd-image{
+    position: relative;
+    height: 550px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+//details
+#section-details{
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.update-img{
+    position: relative;
+    margin-left: 35px;
+    margin-top: 36px;
+    height: 525px;
+}
+.iphone-back{
+    position: absolute;
+    height: 600px;
+}
+.logo-navigations{
+    margin-left: -240px;
+    position: relative;
+    width: 243px;
+    height: 100px;
+    margin-bottom: -460px;
+}
+
+
+@media only screen and (max-width: 570px){
+    #section-header{
+      height: 1000px;
+    }
+    .image-align{
+        flex-direction: column-reverse;
+    }
+    .img-service{
+        height: 550px;
+        margin-top:-10px;
+    }
+    .header{
+        margin-left:25px;
+       padding-top: 30px;
+    }
+    .text{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+

@@ -1,0 +1,41 @@
+// #section-contact{
+//     margin-top: 10px;
+// }
+.back-contain{
+    background-color:white no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    height: auto;
+    // width: 100%;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    // margin: 10px;
+}
+.head{
+    color: #3B9914;
+    padding: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem; 
+    margin-top:10px;
+}
+.text-header{
+    color:#3B9914;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 570px){
+    .contact-img{
+        flex-direction: column-reverse;
+        margin: 10px 5px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .contact-img{
+        flex-direction: column-reverse;
+        margin: 10px 5px;
+    }
+}
